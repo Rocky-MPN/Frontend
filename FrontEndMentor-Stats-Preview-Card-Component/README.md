@@ -75,7 +75,7 @@ I will also stick to mobile-first approach as this made teh work more effcient.
 
 ### Useful resources
 
-- [ELearn Grid](https://learncssgrid.com/) - This helped me with understanding the grid concept better.
+- [Learn Grid](https://learncssgrid.com/) - This helped me with understanding the grid concept better.
 
 
 ## Author
