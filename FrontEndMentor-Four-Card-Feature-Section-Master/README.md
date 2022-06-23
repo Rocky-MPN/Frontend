@@ -48,5 +48,5 @@ I got more confident in creating projects using mobile first approach.
 ## Author
 Rocky
 
-- Github - [Add your name here](https://github.com/Rocky-MPN)
+- Github - [@Rocky-MPN](https://github.com/Rocky-MPN)
 - Frontend Mentor - [@Rocky-MPN](hhttps://www.frontendmentor.io/profile/Rocky-MPN)
