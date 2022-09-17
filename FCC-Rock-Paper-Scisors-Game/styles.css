@@ -39,6 +39,7 @@ main {
 
 .top-box {
     text-align: center;
+    display: flex;
 }
 
 button {
@@ -49,7 +50,7 @@ button {
     padding: 0.8rem;
     font-size: 1.2rem;
     margin: 1.5rem;
-    width: 10vw;
+    width: 15vw;
     box-shadow: 2px 2px 2px gray;
 }
 
@@ -64,4 +65,21 @@ button:hover {
     background-color: aqua;
     font-size: 1.25rem;
     padding: 0.7rem;
+}
+
+/* Responsive layout for mobile phons and tablets */
+@media (max-width: 600px) {
+    .top-box {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+        margin: 0.2rem;
+    }
+
+    .bottom-box {
+        width: 100%;
+        margin: 0.2rem;
+    }
 }
