@@ -1,0 +1,43 @@
+/* page reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+#page-wrapper {
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#box {
+    width: 31vw;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    max-width: 100%;
+}
+
+#details {
+    background-color: hsl(0, 0%, 100%);
+}
+
+button {}
+
+#big-price {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
