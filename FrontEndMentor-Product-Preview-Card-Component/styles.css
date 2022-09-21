@@ -33,6 +33,7 @@ img {
 
 #details {
     background-color: hsl(0, 0%, 100%);
+    padding: 1rem;
 }
 
 button {}
@@ -40,4 +41,15 @@ button {}
 #big-price {
     font-family: 'Fraunces', serif;
     font-weight: 700;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 95%;
+}
+
+h2 {
+    font-variant: small-caps;
 }
