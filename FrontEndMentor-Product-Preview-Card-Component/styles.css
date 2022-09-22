@@ -22,7 +22,6 @@ body {
 
 #box {
     width: 31vw;
-    border: 1px solid blue;
     display: flex;
     flex-direction: row;
 }
@@ -31,9 +30,14 @@ img {
     max-width: 100%;
 }
 
+
+#icon-cart {
+    height: 30%;
+}
+
 #details {
     background-color: hsl(0, 0%, 100%);
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 button {}
@@ -52,4 +56,37 @@ h1 {
 
 h2 {
     font-variant: small-caps;
+    letter-spacing: 4px;
+    font-size: 0.9rem;
+    color: hsl(228, 12%, 48%);
+}
+
+p {
+    font-size: 0.7rem;
+    color: hsl(228, 12%, 48%);
+}
+
+#big-price {
+    color: hsl(158, 36%, 37%);
+    font-size: 1.4rem;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    width: 100%;
+    border: 0px;
+    border-radius: 8px;
+    height: 2.5rem;
+    font-size: 0.7rem;
+    color: hsl(0, 0%, 100%);
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
