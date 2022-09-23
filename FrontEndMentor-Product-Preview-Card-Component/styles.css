@@ -11,9 +11,9 @@ body {
     font-weight: 500;
 }
 
+
 #page-wrapper {
     display: flex;
-    border: 1px solid black;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -21,45 +21,72 @@ body {
 }
 
 #box {
-    width: 31vw;
+    width: 480px;
     display: flex;
-    flex-direction: row;
     border-radius: 8px;
     flex-basis: 100%;
 }
 
-img {
-    max-width: 100%;
-    border-radius: 8px 0 0 8px;
-}
-
-
-#icon-cart {
-    height: 30%;
-}
 
 #details {
     background-color: hsl(0, 0%, 100%);
-    padding: 1.5rem;
+    padding: 1.7rem;
     border-radius: 0 8px 8px 0;
     flex-basis: 100%;
 }
 
 #image {
     border-radius: 8px 0 0 8px;
+    height: 300px;
+}
+
+#price {
+    padding: 1.1rem 0 1.75rem 0;
+    display: flex;
+    align-items: center;
 }
 
 
 #big-price {
     font-family: 'Fraunces', serif;
     font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    font-size: 1.5rem;
+}
+
+#small-price {
+    font-size: 0.7rem;
+    padding-left: 1rem;
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+#btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#icon-cart {
+    padding-right: 1rem;
+}
+
+#cart {
+    font-weight: 700;
+}
+
+
+img {
+    max-width: 240px;
+    border-radius: 8px 0 0 8px;
 }
 
 h1 {
     font-family: 'Fraunces', serif;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     font-weight: 700;
     line-height: 95%;
+    padding: 1.1rem 0;
 }
 
 h2 {
@@ -70,14 +97,12 @@ h2 {
 }
 
 p {
-    font-size: 0.7rem;
+    font-size: 0.69rem;
     color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    line-height: 1rem;
 }
 
-#big-price {
-    color: hsl(158, 36%, 37%);
-    font-size: 1.4rem;
-}
 
 button {
     background-color: hsl(158, 36%, 37%);
@@ -97,4 +122,25 @@ button {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 485px) {
+
+    #page-wrapper {
+        min-height: auto;
+    }
+
+    #box {
+        flex-direction: column;
+        width: auto;
+        padding: 1rem;
+    }
+
+    #image {
+        height: auto;
+    }
+
+    img {
+        max-width: 100%;
+    }
 }
