@@ -24,10 +24,13 @@ body {
     width: 31vw;
     display: flex;
     flex-direction: row;
+    border-radius: 8px;
+    flex-basis: 100%;
 }
 
 img {
     max-width: 100%;
+    border-radius: 8px 0 0 8px;
 }
 
 
@@ -38,9 +41,14 @@ img {
 #details {
     background-color: hsl(0, 0%, 100%);
     padding: 1.5rem;
+    border-radius: 0 8px 8px 0;
+    flex-basis: 100%;
 }
 
-button {}
+#image {
+    border-radius: 8px 0 0 8px;
+}
+
 
 #big-price {
     font-family: 'Fraunces', serif;
