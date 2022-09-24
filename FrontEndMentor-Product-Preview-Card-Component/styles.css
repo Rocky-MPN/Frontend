@@ -137,10 +137,13 @@ button {
     }
 
     #image {
-        height: auto;
+        background-image: url(images/image-product-mobile.jpg);
+        background-size: cover;
+        background-position: center;
     }
 
     img {
         max-width: 100%;
+        display: none;
     }
 }
