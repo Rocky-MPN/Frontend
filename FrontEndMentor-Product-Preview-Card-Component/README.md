@@ -39,6 +39,6 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/rocky-mpn)
-- Twitter - [@yourusername](https://www.twitter.com/rocky_mpn)
+- Frontend Mentor - [@rocky-mpn](https://www.frontendmentor.io/profile/rocky-mpn)
+- Twitter - [@yrocky_mpn](https://www.twitter.com/rocky_mpn)
 
