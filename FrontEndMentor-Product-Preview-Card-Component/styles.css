@@ -114,6 +114,11 @@ button {
     color: hsl(0, 0%, 100%);
 }
 
+button:hover {
+    background-color: rgba(26, 64, 49, 255);
+    cursor: pointer;
+}
+
 
 .attribution {
     font-size: 11px;
