@@ -59,6 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let cardsChosenIds = []
     const cardsWon = []
 
+
     //create your board
     function createBoard() {
         for (let i = 0; i < cardArray.length; i++) {
@@ -83,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
             cards[optionTwoId].setAttribute('src', 'images/blank.png')
         }
         else if (cardsChosen[0] === cardsChosen[1]) {
-            alert('you found a match')
+            // alert('you found a match')
             cards[optionOneId].setAttribute('src', 'images/white.png')
             cards[optionTwoId].setAttribute('src', 'images/white.png')
             cards[optionOneId].removeEventListener('click', flipCard)
@@ -93,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
         else {
             cards[optionOneId].setAttribute('src', 'images/blank.png')
             cards[optionTwoId].setAttribute('src', 'images/blank.png')
-            alert('sorry try again')
+            // alert('sorry try again')
         }
 
         resultDisplay.textContent = cardsWon.length
@@ -117,6 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-
     createBoard()
+
+
 })

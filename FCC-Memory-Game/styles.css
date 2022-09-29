@@ -1,9 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
 #grid {
     width: 400px;
     height: 300px;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 #page-wrapper {
@@ -12,12 +21,49 @@
     align-items: center;
 }
 
-li {
-    display: inline;
+ul {
+    margin: 1rem;
 }
 
-nav {
+li {
+    /* display: inline; */
+    text-align: center;
+    list-style: none;
+}
+
+nav,
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+button {
+    margin: 1rem;
+    height: 2rem;
+    width: 100%;
+    border-radius: 8px;
+    background-color: darkturquoise;
+    color: blue;
+}
+
+button:hover {
+    background-color: blue;
+    color: aqua;
+    cursor: pointer;
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 4rem;
+}
+
+h2 {
+    margin: 1rem;
+}
+
+h3 {
+    margin: 1rem;
+    font-size: 2rem;
+    color: darkviolet;
 }
