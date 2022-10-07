@@ -2,53 +2,53 @@ document.addEventListener('DOMContentLoaded', () => {
     //card options
     const cardArray = [
         {
-            name: 'fries',
-            img: 'images/fries.png',
+            name: 'creeper',
+            img: 'images/creeper.jpg',
         },
         {
-            name: 'cheeseburger',
-            img: 'images/cheeseburger.png',
+            name: 'skeleton',
+            img: 'images/skeleton.jpg',
         },
         {
-            name: 'hotdog',
-            img: 'images/hotdog.png',
+            name: 'steve',
+            img: 'images/steve.jpg',
         },
         {
-            name: 'ice-cream',
-            img: 'images/ice-cream.png',
+            name: 'sword',
+            img: 'images/sword.jpg',
         },
         {
-            name: 'milkshake',
-            img: 'images/milkshake.png',
+            name: 'witch',
+            img: 'images/witch.png',
         },
         {
-            name: 'pizza',
-            img: 'images/pizza.png',
+            name: 'zombie',
+            img: 'images/zombie.jpg',
         },
         {
-            name: 'fries',
-            img: 'images/fries.png',
+            name: 'creeper',
+            img: 'images/creeper.jpg',
         },
         {
-            name: 'cheeseburger',
-            img: 'images/cheeseburger.png',
+            name: 'skeleton',
+            img: 'images/skeleton.jpg',
         },
         {
-            name: 'hotdog',
-            img: 'images/hotdog.png',
+            name: 'steve',
+            img: 'images/steve.jpg',
         },
         {
-            name: 'ice-cream',
-            img: 'images/ice-cream.png',
+            name: 'sword',
+            img: 'images/sword.jpg',
         },
         {
-            name: 'milkshake',
-            img: 'images/milkshake.png',
+            name: 'witch',
+            img: 'images/witch.png',
         },
         {
-            name: 'pizza',
-            img: 'images/pizza.png',
-        }
+            name: 'zombie',
+            img: 'images/zombie.jpg',
+        },
     ]
 
     cardArray.sort(() => 0.5 - Math.random())
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function createBoard() {
         for (let i = 0; i < cardArray.length; i++) {
             const card = document.createElement('img')
-            card.setAttribute('src', 'images/blank.png')
+            card.setAttribute('src', 'images/tnt.png')
             card.setAttribute('data-id', i)
             card.addEventListener('click', flipCard)
             gridDisplay.appendChild(card)
