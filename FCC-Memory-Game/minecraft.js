@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const optionTwoId = cardsChosenIds[1]
 
         if (optionOneId == optionTwoId) {
-            alert('You clicked the same image')
+            // alert('You clicked the same image')
             cards[optionOneId].setAttribute('src', 'images/tnt.png')
             cards[optionTwoId].setAttribute('src', 'images/tnt.png')
         }
@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
         cardsChosenIds = []
 
         if (cardsWon.length == cardArray.length / 2) {
-            resultDisplay.textContent = 'Congratulations you have found them all!'
+            resultDisplay.textContent = 'Congratulations you are the CHAMPION!!!'
         }
     }
 

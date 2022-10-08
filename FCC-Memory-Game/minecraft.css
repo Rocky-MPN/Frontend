@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("images/minecraft-background2.jpg");
+    background-image: url("images/minecraft-background4.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -24,7 +24,7 @@ body {
 }
 
 ul {
-    margin: 1rem;
+    margin: 0.8rem;
 }
 
 li {
@@ -37,6 +37,12 @@ nav,
 main {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
     align-items: center;
 }
 
@@ -62,10 +68,41 @@ h1 {
 
 h2 {
     margin: 1rem;
+    color: darkmagenta;
 }
 
 h3 {
-    margin: 1rem;
+    margin: 5rem 0 1rem 0;
     font-size: 2rem;
     color: darkviolet;
+    background-color: chartreuse;
+}
+
+a {
+    color: darkmagenta;
+}
+
+header {
+    width: 638px;
+    height: 78px;
+    background-image: url("images/MEMORY-GAME.png");
+    margin-top: 2rem;
+}
+
+@media (max-width: 640px) {
+
+    #grid {
+        width: 300px;
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    header {
+        width: 298px;
+        height: 43px;
+        background-image: url("images/MEMORY-GAME-SMALL.png");
+        margin-top: 2rem;
+    }
 }
