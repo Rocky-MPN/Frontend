@@ -13,7 +13,7 @@ This was a very fun little project which we both enjoyed.
 # Links
 
 - Solution URL: [github.com/Rocky-MPN/Frontend/tree/main/FCC-Memory-Game](https://github.com/Rocky-MPN/Frontend/tree/main/FCC-Memory-Game)
-- Live Site URL: [rocky-mpn.github.io/Product-Preview-Card-Component/](https://rocky-mpn.github.io/Minecraft-Memory-Game/)
+- Live Site URL: [rocky-mpn.github.io/Minecraft-Memory-Game/](https://rocky-mpn.github.io/Minecraft-Memory-Game/)
 
 
 # Built with
