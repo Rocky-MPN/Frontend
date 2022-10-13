@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/Rocky-MPN/nft-preview-card-component-main)
+- Solution URL: (https://github.com/Rocky-MPN/Frontend/tree/main/Front%20End%20Mentor/NFT-Preview-Card-Component)
 - Live Site URL: (https://rocky-mpn.github.io/NFT-Component/)
 
 ## My process
