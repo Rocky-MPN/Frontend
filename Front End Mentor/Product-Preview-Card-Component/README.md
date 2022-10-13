@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github.com/Rocky-MPN/Frontend/tree/main/FrontEndMentor-Product-Preview-Card-Component](https://github.com/Rocky-MPN/Frontend/tree/main/FrontEndMentor-Product-Preview-Card-Component)
+- Solution URL: https://github.com/Rocky-MPN/Frontend/edit/main/Front%20End%20Mentor/Product-Preview-Card-Component/
 - Live Site URL: [rocky-mpn.github.io/Product-Preview-Card-Component/](https://rocky-mpn.github.io/Product-Preview-Card-Component/)
 
 
