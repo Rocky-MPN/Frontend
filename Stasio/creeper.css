@@ -1,0 +1,28 @@
+img {
+    /* width: 500px; */
+    height: 80vh;
+}
+
+#page-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    width: 80%;
+
+}
+
+nav {
+    font-size: larger;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
