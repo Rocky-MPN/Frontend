@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/Rocky-MPN/Frontend/tree/main/FrontEndMentor-Stats-Preview-Card-Component)
+- Solution URL: https://github.com/Rocky-MPN/Frontend/edit/main/Front%20End%20Mentor/Stats-Preview-Card-Component/
 - Live Site URL: [Live site URL](https://rocky-mpn.github.io/Stats-Preview-Component/)
 
 ## My process
