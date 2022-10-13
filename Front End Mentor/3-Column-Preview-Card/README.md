@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Rocky-MPN/Frontend/edit/main/Front%20End%20Mentor/3-Column-Preview-Card/)
-- Live Site URL: [Add live site URL here](https://rocky-mpn.github.io/3-column-preview-card-component/)
+- Solution URL: [https://github.com/Rocky-MPN/Frontend/edit/main/Front%20End%20Mentor/3-Column-Preview-Card/](https://github.com/Rocky-MPN/Frontend/edit/main/Front%20End%20Mentor/3-Column-Preview-Card/)
+- Live Site URL: [[Add live site URL here](https://rocky-mpn.github.io/3-column-preview-card-component/)](https://rocky-mpn.github.io/3-column-preview-card-component/)
 
 ## My process
 
