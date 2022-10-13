@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/Rocky-MPN/QR-Code-Component
+- Solution URL: https://github.com/Rocky-MPN/Frontend/edit/main/Front%20End%20Mentor/Order-Summary-Component/
 - Live Site URL: https://rocky-mpn.github.io/Order-Summary-Component/
 
 ## My process
