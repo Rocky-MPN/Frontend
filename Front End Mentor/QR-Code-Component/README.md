@@ -26,7 +26,7 @@ This challenge was to build out QR code component and get it looking as close to
 
 ### Links
 
-- Solution URL: https://github.com/Rocky-MPN/QR-Code-Component/blob/e74cbcb7d067a03abf06f667094e903f7adf60a1/index.html
+- Solution URL: https://github.com/Rocky-MPN/Frontend/edit/main/Front%20End%20Mentor/QR-Code-Component
 - Live Site URL: https://rocky-mpn.github.io/QR-Code-Component/
 
 ## My process
