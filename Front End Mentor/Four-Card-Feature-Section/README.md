@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL](https://github.com/Rocky-MPN/Frontend/tree/main/FrontEndMentor-Four-Card-Feature-Section-Master)
-- Live Site URL: [live site URL](https://rocky-mpn.github.io/Four-Card-Feature-Section-Master/)
+- Solution URL: [https://github.com/Rocky-MPN/Frontend/edit/main/Front%20End%20Mentor/Four-Card-Feature-Section/](https://github.com/Rocky-MPN/Frontend/edit/main/Front%20End%20Mentor/Four-Card-Feature-Section/)
+- Live Site URL: [https://rocky-mpn.github.io/Four-Card-Feature-Section-Master/](https://rocky-mpn.github.io/Four-Card-Feature-Section-Master/)
 
 ## My process
 
