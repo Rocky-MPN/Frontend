@@ -6,7 +6,7 @@ const startButton = document.getElementById("start-button")
 
 let result = 0
 let hitPosition
-let currentTime = 30
+let currentTime = 20
 let timerId = null
 
 function randomSquare() {
@@ -16,7 +16,6 @@ function randomSquare() {
 
     let randomSquare = squares[Math.floor(Math.random() * 9)]
     randomSquare.classList.add('mole')
-
     hitPosition = randomSquare.id
 }
 
@@ -46,7 +45,8 @@ function countDown() {
     if (currentTime == 0) {
         clearInterval(countDownTimerId)
         clearInterval(timerId)
-        alert('GAME OVER! Your final score is ' + result)
+        document.getElementById("game-over").innerText = "GAME OVER"
+        // alert('GAME OVER! Your final score is ' + result)
     }
 }
 
