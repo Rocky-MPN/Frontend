@@ -2,10 +2,11 @@ const squares = document.querySelectorAll('.square')
 const mole = document.querySelector('.mole')
 const timeLeft = document.querySelector('#time-left')
 const score = document.querySelector('#score')
+const startButton = document.getElementById("start-button")
 
 let result = 0
 let hitPosition
-let currentTime = 60
+let currentTime = 30
 let timerId = null
 
 function randomSquare() {
@@ -33,7 +34,10 @@ function moveMole() {
     timerId = setInterval(randomSquare, 500)
 }
 
+
 moveMole()
+
+
 
 function countDown() {
     currentTime--
@@ -44,7 +48,8 @@ function countDown() {
         clearInterval(timerId)
         alert('GAME OVER! Your final score is ' + result)
     }
-
 }
 
 let countDownTimerId = setInterval(countDown, 1000)
+
+
