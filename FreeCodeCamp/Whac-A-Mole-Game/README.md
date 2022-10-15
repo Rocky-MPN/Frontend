@@ -1,4 +1,4 @@
-# Minecraft simple memory game
+# Minecraft Whac-A-Creeper game
 
 My son loves Minecraft so as part of my learning I decided to create a simple game based on a Whac-A-Mole.
 This was a very fun little project which we both enjoyed.
