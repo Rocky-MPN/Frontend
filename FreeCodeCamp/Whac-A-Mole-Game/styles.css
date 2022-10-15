@@ -98,23 +98,25 @@ h1 {
     .mole {
         background-image: url("minecraft-creeper-head-mid.png");
     }
+}
 
-    @media (max-width: 311px) {
+@media (max-width: 311px) {
 
-        .square {
-            height: 50px;
-            width: 50px;
-        }
+    .square {
+        height: 50px;
+        width: 50px;
+    }
 
-        .grid {
-            width: 156px;
-            height: 156px;
-        }
+    .grid {
+        width: 156px;
+        height: 156px;
+    }
 
-        h3 {
-            font-size: 2rem;
-        }
+    h3 {
+        font-size: 2rem;
+    }
 
-        .mole {
-            background-image: url("minecraft-creeper-head-small.png");
-        }
+    .mole {
+        background-image: url("minecraft-creeper-head-small.png");
+    }
+}
