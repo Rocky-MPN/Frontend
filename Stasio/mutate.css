@@ -41,7 +41,6 @@ section {
 
 .mobs:hover {
     border: 2px solid red;
-    box-shadow: 4px 4px 8px 2px blueviolet;
     transition: all 0.5s 0s ease;
 }
 
