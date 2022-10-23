@@ -19,7 +19,6 @@ body {
     margin: 50px;
     padding-left: 30px;
     padding-right: 30px;
-    border: 1px solid red;
     background-color: hsl(0, 0%, 100%);
 }
 
@@ -99,3 +98,6 @@ h1 {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+
+@media (min-width: 600px) {}
