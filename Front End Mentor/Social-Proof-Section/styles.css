@@ -100,4 +100,15 @@ h1 {
 }
 
 
-@media (min-width: 600px) {}
+@media (min-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #page-wrapper {
+        width: 1000px;
+        display: flex;
+        flex-direction: row;
+    }
+}
