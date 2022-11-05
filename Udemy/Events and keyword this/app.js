@@ -1,7 +1,8 @@
 const buttons = document.querySelectorAll('button');
 for (let button of buttons) {
-    button.addEventListener('click', () => {
-        console.log('clicked')
+    button.addEventListener('click', function () {
+        this.style.backgroundColor = makeRandomColor();
+        this.style.color = makeRandomColor();
     })
 }
 
