@@ -5,7 +5,6 @@ const h1 = document.querySelector('h1');
 button.addEventListener('click', function () {
     const newColor = makeRandomColor();
     document.body.style.backgroundColor = newColor;
-    h1.innerText = newColor
 })
 
 
