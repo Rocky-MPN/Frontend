@@ -10,6 +10,9 @@ let xDirection = -2;
 let yDirection = 2;
 let score = 0
 
+const start = document.querySelector('#start')
+const restartGame = document.querySelector('#restart')
+
 const userStart = [230, 10]
 let currentPosition = userStart
 
@@ -70,6 +73,15 @@ user.classList.add('user')
 drawUser()
 grid.appendChild(user)
 
+
+
+//MPN start button
+start.addEventListener('click', startGame)
+
+//MPN restart button
+restartGame.addEventListener('click', restart)
+
+
 //draw the user
 function drawUser() {
     user.style.left = currentPosition[0] + 'px'
@@ -117,7 +129,15 @@ function moveBall() {
     checkForCollisions()
 }
 
-timerId = setInterval(moveBall, 30)
+//MPN start the game
+function startGame() {
+    timerId = setInterval(moveBall, 30)
+}
+
+//MPN restart the game
+function restart() {
+    location.reload()
+}
 
 //check for collisions
 function checkForCollisions() {
