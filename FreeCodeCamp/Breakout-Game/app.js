@@ -17,7 +17,7 @@ const audioLose = new Audio('lose.mp3');
 
 
 const start = document.querySelector('#start')
-const restartGame = document.querySelector('#restart')
+// const restartGame = document.querySelector('#restart')
 
 const userStart = [230, 10]
 let currentPosition = userStart
@@ -55,8 +55,6 @@ const blocks = [
     new Block(450, 210),
 ]
 
-console.log(blocks[0])
-
 
 //draw all my blocks
 function addBlocks() {
@@ -84,8 +82,9 @@ grid.appendChild(user)
 //MPN start button
 start.addEventListener('click', startGame)
 
+
 //MPN restart button
-restartGame.addEventListener('click', restart)
+// restartGame.addEventListener('click', restart)
 
 
 //draw the user
@@ -170,6 +169,7 @@ function checkForCollisions() {
                 document.removeEventListener('keydown', moveUser)
                 audioWin.loop = false;
                 audioWin.play();
+                setTimeout("location.reload(true);", 3000);
             }
         }
     }
@@ -205,6 +205,7 @@ function checkForCollisions() {
         grid.classList.add('gameover')
         audioLose.loop = false;
         audioLose.play();
+        setTimeout("location.reload(true);", 2000);
     }
 }
 
