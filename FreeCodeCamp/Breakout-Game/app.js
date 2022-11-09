@@ -10,6 +10,12 @@ let xDirection = -2;
 let yDirection = 2;
 let score = 0
 
+const audioWin = new Audio('Tada-sound.mp3');
+const audioHit = new Audio('hit.mp3');
+const audioPunch = new Audio('punch.mp3');
+const audioLose = new Audio('lose.mp3');
+
+
 const start = document.querySelector('#start')
 const restartGame = document.querySelector('#restart')
 
@@ -131,7 +137,7 @@ function moveBall() {
 
 //MPN start the game
 function startGame() {
-    timerId = setInterval(moveBall, 30)
+    timerId = setInterval(moveBall, 20)
 }
 
 //MPN restart the game
@@ -153,12 +159,17 @@ function checkForCollisions() {
             changeDirection()
             score++
             scoreDisplay.innerHTML = score
+            audioHit.loop = false;
+            audioHit.play();
 
             //check for win
             if (blocks.length === 0) {
                 scoreDisplay.innerHTML = 'YOU WIN!'
                 clearInterval(timerId)
+                grid.classList.add('win')
                 document.removeEventListener('keydown', moveUser)
+                audioWin.loop = false;
+                audioWin.play();
             }
         }
     }
@@ -172,6 +183,8 @@ function checkForCollisions() {
         ballCurrentPosition[0] <= 0
     ) {
         changeDirection()
+        audioPunch.loop = false;
+        audioPunch.play();
     }
 
     //check for user collisions
@@ -180,6 +193,8 @@ function checkForCollisions() {
         (ballCurrentPosition[1] > currentPosition[1] && ballCurrentPosition[1] < currentPosition[1] + blockHeight)
     ) {
         changeDirection()
+        audioPunch.loop = false;
+        audioPunch.play();
     }
 
     //check for game over
@@ -187,6 +202,9 @@ function checkForCollisions() {
         clearInterval(timerId)
         scoreDisplay.innerHTML = 'You lose'
         document.removeEventListener('keydown', moveUser)
+        grid.classList.add('gameover')
+        audioLose.loop = false;
+        audioLose.play();
     }
 }
 
