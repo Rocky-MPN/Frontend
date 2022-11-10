@@ -10,6 +10,15 @@ let xDirection = -2;
 let yDirection = 2;
 let score = 0
 
+let diffEasy = false;
+let diffNormal = true;
+let diffHard = false;
+let diffValue = 20
+
+let buttonDiffEasy = document.querySelector('#easy')
+let buttonDiffNormal = document.querySelector('#normal')
+let buttonDiffHard = document.querySelector('#hard')
+
 const startButtonRemove = document.querySelector('#start')
 const audioWin = new Audio('Tada-sound.mp3');
 const audioHit = new Audio('hit.mp3');
@@ -18,7 +27,6 @@ const audioLose = new Audio('lose.mp3');
 
 
 const start = document.querySelector('#start')
-// const restartGame = document.querySelector('#restart')
 
 const userStart = [230, 10]
 let currentPosition = userStart
@@ -79,13 +87,14 @@ drawUser()
 grid.appendChild(user)
 
 
+//MPN choose difficulty buttons
+buttonDiffEasy.addEventListener('click', chooseDiff)
+buttonDiffNormal.addEventListener('click', chooseDiff)
+buttonDiffHard.addEventListener('click', chooseDiff)
 
 //MPN start button
 start.addEventListener('click', startGame)
 
-
-//MPN restart button
-// restartGame.addEventListener('click', restart)
 
 
 //draw the user
@@ -135,16 +144,14 @@ function moveBall() {
     checkForCollisions()
 }
 
+
 //MPN start the game
 function startGame() {
     timerId = setInterval(moveBall, 20)
     startButtonRemove.classList.add('remove-start-button')
 }
 
-// //MPN restart the game
-// function restart() {
-//     location.reload()
-// }
+
 
 //check for collisions
 function checkForCollisions() {
@@ -230,4 +237,29 @@ function changeDirection() {
         xDirection = 2
         return
     }
+}
+
+
+//MPN select difficulty
+function chooseDiff() {
+    if (diffEasy === true) {
+        diffNormal = false
+        diffHard = false
+        diffValue = 40
+        console.log('selected easy')
+        return
+    }
+    if (diffHard === true) {
+        diffEasy = false
+        diffHard = false
+        diffValue = 10
+        return
+    }
+    if (diffNormal === true) {
+        diffEasy = false
+        diffHard = false
+        diffValue = 20
+        return
+    }
+
 }
