@@ -10,15 +10,6 @@ let xDirection = -2;
 let yDirection = 2;
 let score = 0
 
-let diffEasy = false;
-let diffNormal = true;
-let diffHard = false;
-let diffValue = 20
-
-let buttonDiffEasy = document.querySelector('#easy')
-let buttonDiffNormal = document.querySelector('#normal')
-let buttonDiffHard = document.querySelector('#hard')
-
 const startButtonRemove = document.querySelector('#start')
 const audioWin = new Audio('Tada-sound.mp3');
 const audioHit = new Audio('hit.mp3');
@@ -148,10 +139,12 @@ function moveBall() {
 //MPN start the game
 function startGame() {
     timerId = setInterval(moveBall, 20)
-    startButtonRemove.classList.add('remove-start-button')
 }
 
-
+// //MPN restart the game
+// function restart() {
+//     location.reload()
+// }
 
 //check for collisions
 function checkForCollisions() {
@@ -179,7 +172,6 @@ function checkForCollisions() {
                 audioWin.loop = false;
                 audioWin.play();
                 setTimeout("location.reload(true);", 3000);
-                startButtonRemove.classList.remove('remove-start-button')
             }
         }
     }
@@ -216,7 +208,6 @@ function checkForCollisions() {
         audioLose.loop = false;
         audioLose.play();
         setTimeout("location.reload(true);", 2000);
-        startButtonRemove.classList.remove('remove-start-button')
     }
 }
 
