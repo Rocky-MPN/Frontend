@@ -78,11 +78,6 @@ drawUser()
 grid.appendChild(user)
 
 
-//MPN choose difficulty buttons
-buttonDiffEasy.addEventListener('click', chooseDiff)
-buttonDiffNormal.addEventListener('click', chooseDiff)
-buttonDiffHard.addEventListener('click', chooseDiff)
-
 //MPN start button
 start.addEventListener('click', startGame)
 
@@ -139,12 +134,9 @@ function moveBall() {
 //MPN start the game
 function startGame() {
     timerId = setInterval(moveBall, 20)
+    startButtonRemove.classList.add('remove-start-button')
 }
 
-// //MPN restart the game
-// function restart() {
-//     location.reload()
-// }
 
 //check for collisions
 function checkForCollisions() {
@@ -172,6 +164,7 @@ function checkForCollisions() {
                 audioWin.loop = false;
                 audioWin.play();
                 setTimeout("location.reload(true);", 3000);
+                startButtonRemove.classList.remove('remove-start-button')
             }
         }
     }
@@ -208,6 +201,7 @@ function checkForCollisions() {
         audioLose.loop = false;
         audioLose.play();
         setTimeout("location.reload(true);", 2000);
+        startButtonRemove.classList.remove('remove-start-button')
     }
 }
 
@@ -228,29 +222,4 @@ function changeDirection() {
         xDirection = 2
         return
     }
-}
-
-
-//MPN select difficulty
-function chooseDiff() {
-    if (diffEasy === true) {
-        diffNormal = false
-        diffHard = false
-        diffValue = 40
-        console.log('selected easy')
-        return
-    }
-    if (diffHard === true) {
-        diffEasy = false
-        diffHard = false
-        diffValue = 10
-        return
-    }
-    if (diffNormal === true) {
-        diffEasy = false
-        diffHard = false
-        diffValue = 20
-        return
-    }
-
 }
