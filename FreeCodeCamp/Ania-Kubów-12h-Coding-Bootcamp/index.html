@@ -3,26 +3,85 @@
 
 <head>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Maciej Powala-Niedzwiecki Portfolio</title>
 
 </head>
 
 <body>
-    <header></header>
-    <div class="about-me">
-        <h2 id="name">Maciej Powala-Niedzwiecki</h2>
-        <img src="images/rocky-mpn-square.jpg" alt="Maciej Powala-Niedzwiecki photo" class="avatar">
-        <button>Click me</button>
+    <nav>
+        <img src="images/javascript-games-logo.png" alt="MPN logo" class="logo">
+        <ul class="nav-bar">
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="https://github.com/Rocky-MPN">Github</a></li>
+            <li><a href="contact.html">Contact me</a></li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <div class="hero-info">
+            <h1 id="name">Maciej Powala-Niedzwiecki</h1>
+            <p>I am a junior Software Developer and I will change my career. I will become an expert in this area so I
+                can have more freedom. Change my carrer and be more fullfilled.</p>
+            <div class="styled-break"></div>
+            <div class="button">Hire me</div class="button">
+        </div>
+        <div>
+            <img src="images/working-illustration.png" alt="working illustration of a woman" class="hero-image">
+        </div>
     </div>
+    <section>
+        <div class="about-me">
+            <img src="images/rocky-mpn-square.jpg" alt="Maciej Powala-Niedzwiecki photo" class="avatar">
+        </div>
+        <div class="info">
+            <h2><a name="about-me">About Me</a></h2>
+            <p>Born in Poland living in UK since 2008. I discovered my passion for coding while building various
+                websites for my hobbies.</p>
+        </div>
+    </section>
     <section>
         <div class="test"></div>
         <div class="test"></div>
         <div class="test" id="main"></div>
         <div class="test"></div>
         <div class="test"></div>
+    </section>
+    <section>
+        <form action="">
+            <h2>Contact Me</h2>
+            <div class="input-section">
+                <div class="input-group">
+                    <label for="first-name">First name:</label>
+                    <input type="text" id="first-name" name="first-name" value="John">
+                </div>
+                <div class="input-group">
+                    <label for="last-name">Last name:</label>
+                    <input type="text" id="last-name" name="last-name" value="Doe">
+                </div>
+            </div>
+            <div class="input-section">
+                <input type="radio" name="office" id="office" value="office">
+                <label for="office">Office</label>
+                <input type="radio" name="remote" id="remote" value="remote">
+                <label for="remote">Remote</label>
+                <input type="radio" name="Other" id="Other" value="Other">
+                <label for="Other">Other</label>
+            </div>
+            <div class="input-section">
+                <input type="checkbox" name="contract" id="contract" value="contract">
+                <label for="contract">Contract work</label>
+                <input type="checkbox" name="full-time" id="full-time" value="full-time">
+                <label for="full-time">Full-time work</label>
+                <input type="checkbox" name="sponsorship" id="sponsorship" value="sponsorship">
+                <label for="sponsorship">Sponsorship work</label>
+            </div>
+            <input class="button" type="submit" name="submit" id="submit" value="submit">
+        </form>
     </section>
     <footer>
         <ul>
