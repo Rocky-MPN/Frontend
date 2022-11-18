@@ -123,10 +123,12 @@ form {
 
 footer {
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 .input-section {
-    margin: 10px 0;
+    margin: 20px 0;
     display: flex;
 }
 
