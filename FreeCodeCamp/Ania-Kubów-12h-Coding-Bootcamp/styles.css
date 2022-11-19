@@ -127,6 +127,10 @@ footer {
     justify-content: center;
 }
 
+.fa-solid {
+    margin: 3px;
+}
+
 .input-section {
     margin: 20px 0;
     display: flex;
@@ -149,4 +153,21 @@ a:hover {
 
 a:active {
     color: purple;
+}
+
+@media only screen and (max-width: 700px) {
+    .hero-info {
+        max-width: 700px;
+    }
+
+    .hero-image {
+        visibility: hidden;
+        height: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    footer {
+        background-color: blue;
+    }
 }

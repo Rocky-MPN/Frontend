@@ -5,11 +5,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Contact</title>
 </head>
 
 <body>
     <h1>Contact</h1>
+    <section>
+        <form action="">
+            <h2>Contact Me</h2>
+            <div class="input-section">
+                <div class="input-group">
+                    <label for="first-name">First name:</label>
+                    <input type="text" id="first-name" name="first-name" value="John">
+                </div>
+                <div class="input-group">
+                    <label for="last-name">Last name:</label>
+                    <input type="text" id="last-name" name="last-name" value="Doe">
+                </div>
+            </div>
+            <div class="input-section">
+                <input type="radio" name="office" id="office" value="office">
+                <label for="office">Office</label>
+                <input type="radio" name="remote" id="remote" value="remote">
+                <label for="remote">Remote</label>
+                <input type="radio" name="Other" id="Other" value="Other">
+                <label for="Other">Other</label>
+            </div>
+            <div class="input-section">
+                <input type="checkbox" name="contract" id="contract" value="contract">
+                <label for="contract">Contract work</label>
+                <input type="checkbox" name="full-time" id="full-time" value="full-time">
+                <label for="full-time">Full-time work</label>
+                <input type="checkbox" name="sponsorship" id="sponsorship" value="sponsorship">
+                <label for="sponsorship">Sponsorship work</label>
+            </div>
+            <input class="button" type="submit" name="submit" id="submit" value="submit">
+        </form>
+    </section>
 </body>
 
 </html>
