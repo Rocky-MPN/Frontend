@@ -1,6 +1,6 @@
 # A simple JavaScript Breakout game
 
-This is my variation of a breakout game. I created it while learnig JavaScript concepts.
+This is my variation of a breakout game. I created it while learning JavaScript concepts.
 
 
 # Screenshot
