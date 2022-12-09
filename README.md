@@ -9,6 +9,10 @@ Below are some of my proects and excercises I completed while learning HTML, CSS
 - [Personal Portfolio](https://github.com/Rocky-MPN/Frontend/tree/main/FreeCodeCamp/Personal-Portfolio)
 - [Product Landing Page](https://github.com/Rocky-MPN/Frontend/tree/main/FreeCodeCamp/Product-Landing-Page)
 - [Survey Form](https://github.com/Rocky-MPN/Frontend/tree/main/FreeCodeCamp/Survey-Form)
+- [Technical Documentation Page](https://github.com/Rocky-MPN/Frontend/tree/main/FreeCodeCamp/Technical-Documentation-Page)
+- [Tribute Page](https://github.com/Rocky-MPN/Frontend/tree/main/FreeCodeCamp/Tribute-Page)
+- [Whac-A-Mole Game](https://github.com/Rocky-MPN/Frontend/tree/main/FreeCodeCamp/Whac-A-Mole-Game)
+
 
 ## Udemy Web Developer Bootcamp 2022
 
