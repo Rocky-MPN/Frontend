@@ -13,7 +13,6 @@ Below are some of my proects and excercises I completed while learning HTML, CSS
 ## Udemy Web Developer Bootcamp 2022
 
 -
--
 
 ## Front End Mentor
 -
