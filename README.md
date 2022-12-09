@@ -8,6 +8,7 @@
 - [Breakout Game](https://github.com/Rocky-MPN/Frontend/tree/main/FreeCodeCamp/Breakout-Game)
 - [Memory Game](https://github.com/Rocky-MPN/Frontend/tree/main/FreeCodeCamp/Memory-Game)
 - [Rock Paper Scissors Game](https://github.com/Rocky-MPN/Frontend/tree/main/FreeCodeCamp/Rock-Paper-Scisors-Game)
+- [Personal Portfolio](https://github.com/Rocky-MPN/Frontend/tree/main/FreeCodeCamp/Personal-Portfolio)
 
 ## Udemy Web Developer Bootcamp 2022
 
