@@ -1,4 +1,4 @@
-# Personal Portfolio project
+# Product Landing Page
 
 I built this as part of FreeCodeCamp Responsive Website course.
 
