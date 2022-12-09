@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Rocky-MPN/Frontend/edit/main/Front%20End%20Mentor/Single-Price-Grid-Component/](https://github.com/Rocky-MPN/Frontend/edit/main/Front%20End%20Mentor/Single-Price-Grid-Component/)
-- Live Site URL: [https://rocky-mpn.github.io/Single-Price-Grid-Component/](https://rocky-mpn.github.io/Single-Price-Grid-Component/)
+- Live Site URL: [https://rocky-mpn.github.io/Single-Price-Component/](https://rocky-mpn.github.io/Single-Price-Component/)
 
 ## My process
 
