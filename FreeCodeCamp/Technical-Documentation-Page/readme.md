@@ -11,8 +11,8 @@ I built this as part of FreeCodeCamp Responsive Website course.
 
 # Links
 
-- Solution URL: [github.com/Rocky-MPN/Frontend/tree/main/Survey-Form](https://github.com/Rocky-MPN/Frontend/tree/main/FreeCodeCamp/Technical-Documentation-Page)
-- Live Site URL: [rocky-mpn.github.io/Survey-Form/](https://rocky-mpn.github.io/Technical-Documentation-Page/)
+- Solution URL: [github.com/Rocky-MPN/Frontend/tree/main/Technical-Documentation-Page](https://github.com/Rocky-MPN/Frontend/tree/main/FreeCodeCamp/Technical-Documentation-Page)
+- Live Site URL: [rocky-mpn.github.io/Technical-Documentation-Page/](https://rocky-mpn.github.io/Technical-Documentation-Page/)
 
 
 # Built with
