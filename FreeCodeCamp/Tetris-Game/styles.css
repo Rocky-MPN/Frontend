@@ -1,5 +1,54 @@
+body {
+    background-color: lightcyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
 .container {
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.gradient-border {
+    --borderWidth: 3px;
+    background: #1D1F20;
+    position: relative;
+    border-radius: var(--borderWidth);
+}
+
+.gradient-border:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+}
+
+
+@keyframes animatedgradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .grid {
@@ -7,7 +56,10 @@
     height: 400px;
     display: flex;
     flex-wrap: wrap;
-    background-color: yellow;
+    background: url(space-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 3px solid black; */
 }
 
 .grid div {
@@ -16,19 +68,50 @@
 }
 
 .tetromino {
+    box-sizing: border-box;
     background-color: blue;
+    border: 1px solid black;
 }
 
 .mini-grid {
-    margin-left: 50px;
+    /* margin-left: 50px; */
     width: 80px;
     height: 80px;
     display: flex;
     flex-wrap: wrap;
-    background-color: yellow;
+    background: url(space-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .mini-grid div {
     height: 20px;
     width: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    color: magenta;
+    font-size: 8rem;
+    margin: 0;
+}
+
+h3,
+h4 {
+    margin: 5px;
+}
+
+button {
+    margin: 5px 0 20px 0;
 }

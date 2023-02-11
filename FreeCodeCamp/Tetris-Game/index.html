@@ -7,15 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tetris</title>
     <script src="app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h3>Score: <span id="score">0</span></h3>
-    <h3>Lines: <span id="lines">0</span></h3>
+    <h1>TETRIS</h1>
     <button id="start-button">Start/Pause</button>
     <div class="container">
-        <div class="grid">
+
+        <div class="grid gradient-border">
             <div></div>
             <div></div>
             <div></div>
@@ -228,24 +231,35 @@
             <div class="taken"></div>
             <div class="taken"></div>
         </div>
+        <div class="info">
+            <h3>Score: <span id="score">0</span></h3>
+            <h3>Lines: <span id="lines">0</span></h3>
+            <h3>NEXT BLOCK</h3>
 
-        <div class="mini-grid">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="mini-grid gradient-border">
+
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <h4>controls</h4>
+            <p>&uarr; rotate</p>
+            <p>&larr; left</p>
+            <p>&rarr; right</p>
+            <p>&darr; down</p>
         </div>
     </div>
 </body>
