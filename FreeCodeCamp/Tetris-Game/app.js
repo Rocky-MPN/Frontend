@@ -253,11 +253,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    function nextLevel() {
+        if (lines !== 0 && lines % 5 === 0) {
+            level += 1
+            levelDisplay.innerHTML = level
+        }
+    }
+
 })
 
-function nextLevel() {
-    if (lines === 1) {
-        level += 1
-        levelDisplay.innerHTML = level
-    }
-}
+
