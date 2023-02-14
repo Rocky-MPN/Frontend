@@ -116,3 +116,7 @@ button {
     margin: 5px 0 20px 0;
     height: 1.5rem;
 }
+
+#controls {
+    text-align: left;
+}

@@ -3,12 +3,14 @@ document.addEventListener('DOMContentLoaded', () => {
     let squares = Array.from(document.querySelectorAll('.grid div'))
     const scoreDisplay = document.querySelector('#score')
     const linesDisplay = document.querySelector('#lines')
+    const levelDisplay = document.querySelector('#level')
     const startBtn = document.querySelector('#start-button')
     const width = 10
     let nextRandom = 0
     let timerId
     let score = 0
     let lines = 0
+    let level = 1
     const colors = [
         'orange',
         'red',
@@ -117,6 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
         displayShape()
         addScore()
         gameOver()
+        nextLevel()
     }
 
     //move the tetromino left, unless is at the edge or there is a blockage
@@ -251,3 +254,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 })
+
+function nextLevel() {
+    if (lines === 1) {
+        level += 1
+        levelDisplay.innerHTML = level
+    }
+}
