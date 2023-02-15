@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
         displayShape()
         addScore()
         gameOver()
-        nextLevel()
+
     }
 
     //move the tetromino left, unless is at the edge or there is a blockage
@@ -217,7 +217,6 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             draw()
             timerId = setInterval(moveDown, 1000)
-            // nextRandom = Math.floor(Math.random() * theTetrominoes.length)
             displayShape()
         }
     })
@@ -254,10 +253,16 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function nextLevel() {
-        if (lines !== 0 && lines % 5 === 0) {
+
+        if (lines !== 0 && lines % 2 === 0) {
             level += 1
             levelDisplay.innerHTML = level
         }
+
+    }
+
+    function test() {
+        console.log('test')
     }
 
 })
