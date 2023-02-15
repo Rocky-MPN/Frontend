@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let score = 0
     let lines = 0
     let level = 1
+    let timer = 1000
     const colors = [
         'orange',
         'red',
@@ -210,16 +211,25 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     //add functionality to the button
+    // startBtn.addEventListener('click', () => {
+    //     if (timerId) {
+    //         clearInterval(timerId)
+    //         timerId = null
+    //     } else {
+    //         draw()
+    //         timerId = setInterval(moveDown, 1000)
+    //         displayShape()
+    //     }
+    // })
+
+    //add functionality to the button
     startBtn.addEventListener('click', () => {
-        if (timerId) {
-            clearInterval(timerId)
-            timerId = null
-        } else {
-            draw()
-            timerId = setInterval(moveDown, 1000)
-            displayShape()
-        }
+        draw()
+        timerId = setInterval(moveDown, 1000)
+        displayShape()
     })
+
+
 
     //add score
     function addScore() {
@@ -231,6 +241,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 lines += 1
                 linesDisplay.innerHTML = lines
                 scoreDisplay.innerHTML = score
+
+                //increase level and speed after every 5 lines
+                if (lines !== 0 && lines % 2 == 0) {
+                    level += 1
+                    levelDisplay.innerHTML = level
+                }
+
                 row.forEach(index => {
                     squares[index].classList.remove('taken')
                     squares[index].classList.remove('tetromino')
@@ -252,14 +269,14 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    function nextLevel() {
-
-        if (lines !== 0 && lines % 2 === 0) {
-            level += 1
-            levelDisplay.innerHTML = level
-        }
-
-    }
+    // function checkForNextLevel() {
+    //     for (let i = 0; i < 1; i++) {
+    //         if (lines !== 0 && lines % 2 === 0) {
+    //             level += 1
+    //             levelDisplay.innerHTML = level
+    //         }
+    //     }
+    // }
 
     function test() {
         console.log('test')
