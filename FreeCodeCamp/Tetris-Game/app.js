@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'blue'
     ]
 
+
     //The Tetrominoes
     const lTetromino = [
         [1, width + 1, width * 2 + 1, 2],
@@ -225,7 +226,8 @@ document.addEventListener('DOMContentLoaded', () => {
     //add functionality to the button
     startBtn.addEventListener('click', () => {
         draw()
-        timerId = setInterval(moveDown, 1000)
+        // timer = 1000
+        timerId = setInterval(moveDown, timer)
         displayShape()
     })
 
@@ -246,6 +248,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (lines !== 0 && lines % 2 == 0) {
                     level += 1
                     levelDisplay.innerHTML = level
+                    timer -= 400 //this is not working yet
                 }
 
                 row.forEach(index => {
