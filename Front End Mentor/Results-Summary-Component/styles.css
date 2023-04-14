@@ -23,7 +23,7 @@ body {
     margin: auto;
     display: flex;
     text-align: center;
-
+    width: 50vw;
 }
 
 main {
@@ -40,6 +40,17 @@ nav {
     width: 50%;
 }
 
+.result {
+    margin: 15px;
+}
+
+.score-main {
+    height: 100px;
+    width: 100px;
+    align-self: center;
+    background-color: hsla(241, 72%, 46%, 0);
+    border: 1px solid red;
+}
 
 
 
