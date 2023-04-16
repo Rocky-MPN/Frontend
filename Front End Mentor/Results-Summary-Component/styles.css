@@ -27,32 +27,59 @@ body {
 }
 
 main {
-    background-color: hsl(234, 85%, 45%);
+    background-color: hsl(252, 100%, 67%);
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 300px;
+    border-radius: 20px;
 }
 
 nav {
     background-color: aqua;
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 300px;
 }
 
 .result {
-    margin: 15px;
+    margin: 25px;
 }
 
 .score-main {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     align-self: center;
-    background-color: hsla(241, 72%, 46%, 0);
-    border: 1px solid red;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    color: hsl(0, 0%, 100%);
+}
+
+.score-main p:nth-child(1) {
+    font-size: 3.2rem;
+    font-weight: 800;
+    margin-top: 35px;
+}
+
+.score-main p:nth-child(2) {
+    font-size: 0.8rem;
+    margin: -70px;
+    color: hsl(241, 100%, 89%);
 }
 
 
+.score-word {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+    color: hsl(0, 0%, 100%);
+}
+
+.score-description {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 15px 50px 50px 50px;
+}
 
 .attribution {
     font-size: 11px;
