@@ -107,15 +107,21 @@ nav {
     height: 40px;
     border-radius: 10px;
     font-size: 0.8rem;
+    display: flex;
+    justify-content: space-around;
 }
 
-.reaction :nth-child(1) {
-    margin: 2px;
+.button-left {
+    margin-top: 10px;
+    margin-left: -15px;
 }
 
-.svg-icons {
-    margin: 15px;
+
+
+.button-right {
+    margin: 10px 0 10px 50px;
 }
+
 
 .attribution {
     font-size: 11px;
