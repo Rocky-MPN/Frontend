@@ -29,6 +29,7 @@ Below are some of my proects and excercises I completed while learning HTML, CSS
 - [QR Card Component](https://github.com/Rocky-MPN/Frontend/tree/main/Front%20End%20Mentor/QR-Code-Component)
 - [Social Proof Section](https://github.com/Rocky-MPN/Frontend/tree/main/Front%20End%20Mentor/Social-Proof-Section)
 - [Stats Preview Card Component](https://github.com/Rocky-MPN/Frontend/tree/main/Front%20End%20Mentor/Stats-Preview-Card-Component)
+- [Result Summary Component](https://github.com/Rocky-MPN/Frontend/tree/main/Front%20End%20Mentor/Results-Summary-Component)
 
 #  Author
 
