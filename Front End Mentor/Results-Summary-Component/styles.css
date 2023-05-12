@@ -147,6 +147,24 @@ nav {
     color: hsla(224, 30%, 27%, 0.5);
 }
 
+.continue {
+    align-self: center;
+    background-color: hsl(224, 30%, 27%);
+    width: 80%;
+    margin: 20px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.continue:hover {
+    cursor: pointer;
+    background: linear-gradient(hsla(241, 81%, 54%, 0.75), hsl(241, 81%, 54%));
+}
+
 
 .attribution {
     font-size: 11px;
@@ -155,4 +173,18 @@ nav {
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+
+/* responsive layout */
+
+
+@media (max-width: 800px) {
+    .panels {
+        flex-direction: column;
+    }
+
+    .page-wrapper {
+        width: auto;
+    }
 }
