@@ -1,5 +1,3 @@
-
-
 window.addEventListener('keydown', playSound);
 
 function removeTransition(e) {
