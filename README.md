@@ -31,6 +31,9 @@ Below are some of my proects and excercises I completed while learning HTML, CSS
 - [Stats Preview Card Component](https://github.com/Rocky-MPN/Frontend/tree/main/Front%20End%20Mentor/Stats-Preview-Card-Component)
 - [Result Summary Component](https://github.com/Rocky-MPN/Frontend/tree/main/Front%20End%20Mentor/Results-Summary-Component)
 
+## JavaScript30
+- [JavaScrip Drum Kit](https://github.com/Rocky-MPN/Frontend/tree/main/JavaScript30/JavaScript-Drum-Kit)
+
 #  Author
 
 - [@rocky_mpn](https://www.twitter.com/rocky_mpn)
