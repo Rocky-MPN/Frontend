@@ -1,5 +1,4 @@
 window.addEventListener('keydown', playSound);
-
 function removeTransition(e) {
     if (e.propertyName !== 'transform') return; // skip if not in transform
     this.classList.remove('playing')
