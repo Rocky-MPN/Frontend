@@ -24,5 +24,4 @@ This is a JavaSCript Drum Kit created as part of JavaScript30 challenge. (https:
 - JavaScript
 
 ## Author
-- Frontend Mentor - [@yRocky-MPN](https://www.frontendmentor.io/profile/rocky-MPN)
 - Twitter - [@Rocky_MPN](https://www.twitter.com/Rocky_mpn)
