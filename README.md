@@ -33,7 +33,7 @@ Below are some of my proects and excercises I completed while learning HTML, CSS
 
 ## JavaScript30
 - [JavaScrip Drum Kit](https://github.com/Rocky-MPN/Frontend/tree/main/JavaScript30/JavaScript-Drum-Kit)
-- [JavaScrip Drum Kit](https://github.com/Rocky-MPN/Frontend/tree/main/JavaScript30/JS-and-CSS-Clock)
+- [JS and CSS Clock](https://github.com/Rocky-MPN/Frontend/tree/main/JavaScript30/JS-and-CSS-Clock)
 
 #  Author
 
