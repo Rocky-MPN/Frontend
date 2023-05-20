@@ -36,7 +36,7 @@ img {
   padding: var(--spacing);
 }
 ```
-CSS ```filter``` provides such as ```blur```, ```bightness``` and so on, take a look at it [here](hhttps://developer.mozilla.org/en-US/docs/Web/CSS/filter).
+CSS ```filter``` provides such as ```blur```, ```bightness``` and so on, take a look at it [here](https://developer.mozilla.org/en-US/docs/Web/CSS/filter).
 
 NodeList v.s. Array : NodeList is NOT an Array. You can open the proto in dev tool and see its methods, there are forEach(), keys()..., and Array's prototype has map(), pop()...etc.
 
