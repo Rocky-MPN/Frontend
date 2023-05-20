@@ -15,7 +15,7 @@ This is a JavaSCript and CSS Clock created as part of Wes Bos JavaScript30 chall
 - Solution URL: https://github.com/Rocky-MPN/Frontend/tree/main/JavaScript30/JS-and-CSS-Clock
 - Live Site URL: https://rocky-mpn.github.io/JS-and-CSS-Clock/
 
-## My process
+### My process
 
 
 #### Initialize pointer positions and rotation along the x-axis
@@ -41,7 +41,7 @@ culculating angles of pointers
 
 (the initial state of pointers are 90 degrees)
 
-#### Fixing a glitch!?
+#### Fixing a glitch
 Due to there is a glitch that occurs at every 0th second and our transition is set at 0.05s. When hand transition from final state to initial state, because the number of degrees reduce, the hand makes a (reverse) anti-clockwise motion to reach the 0 degree mark, so we'll see it occurs.
 
 To bypass it, we remove the transition property at the specified degrees (where glitch occurs) via JavaScript.
@@ -57,7 +57,10 @@ else minHand.style.transition = 'all 0.1s';
 
 - HTML
 - CSS
-- JavaScript
+- 
 
-## Author
+### Acknowledgments
+https://github.com/amelieyeh For help with fixing a glitch and imprving styles.
+
+### Author
 - Twitter - [@Rocky_MPN](https://www.twitter.com/Rocky_mpn)
