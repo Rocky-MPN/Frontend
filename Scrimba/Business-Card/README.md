@@ -2,7 +2,7 @@
 
 This is a solution to the Busness Card Project on Scrimba [Frontend Career Path](https://scrimba.com/learn/frontend)
 
-## Table of contents
+
 
 I've created a flip card functionality using CSS.
 
