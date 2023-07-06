@@ -1,4 +1,4 @@
-# Scrimba - Business Card
+# Scrimba - Hometown Project
 
 This is a solution to the Frontend Developer Career Path module 2 - Solo Project - on Scrimba [Frontend Career Path](https://scrimba.com/learn/frontend)
 
