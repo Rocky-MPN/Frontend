@@ -4,10 +4,10 @@ This is a solution to the Frontend Developer Career Path module 3 - Basketball S
 
 
 The aim of this project was to create a simple basketball scoreboard.
-### user needs to be able to add 1, 2 or 3 points
-### scoreboard should display the current score
-### functionality should work for "Home" and "Guests" teams
-### user should be able to reset respective scores to zero
+## - user needs to be able to add 1, 2 or 3 points
+## - scoreboard should display the current score
+## - functionality should work for "Home" and "Guests" teams
+## - user should be able to reset respective scores to zero
 
 
 ## Links
@@ -18,6 +18,6 @@ The aim of this project was to create a simple basketball scoreboard.
 
 ##Screenshot
 
-![Screenshot](images/screenshot.png)
+![images/Screenshot](images/screenshot.png)
 
 
