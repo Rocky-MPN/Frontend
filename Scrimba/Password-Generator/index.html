@@ -21,10 +21,14 @@
             <button id="generate-button">Generate passwords</button>
             <hr>
             <div id="passwords-div">
-                <div class="password-display" id="password-1"></div>
-                <div class="password-display" id="password-2"></div>
+                <div class="password-display" id="password-1"></div><span id="copy-1">💾</span>
+                <div class="password-display" id="password-2"></div><span id="copy-2">💾</span>
             </div>
         </main>
+        <nav>
+            <input id="pass-max-len" type="range" min="5" max="25" step="1" />
+            <p>Value: <output id="value"></output></p>
+        </nav>
     </div>
     <script src="app.js"></script>
 </body>

@@ -5,6 +5,66 @@ const characters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", 
     "/"];
 
 let btn = document.querySelector("#generate-button")
-let passDisplay1 = document.querySelector("#password-display1")
-let passDisplay2 = document.querySelector("#password-display2")
+let passDisplay1 = document.querySelector("#password-1")
+let passDisplay2 = document.querySelector("#password-2")
+let copy1 = document.querySelector("#copy-1")
+let copy2 = document.querySelector("#copy-2")
 
+let text1 = document.getElementById('copy-1').innerHTML;
+let text2 = document.getElementById('copy-2').innerHTML;
+
+btn.addEventListener("click", generatePassword)
+
+
+
+//set password length
+
+let value = document.querySelector("#value");
+let input = document.querySelector("#pass-max-len");
+value.textContent = input.value;
+input.addEventListener("input", (event) => {
+    value.textContent = event.target.value;
+});
+
+
+//generate two random passwords
+function generatePassword() {
+    let password1 = ""
+    for (let i = 0; i < 15; i++) {
+        password1 += characters[Math.floor(Math.random() * characters.length)]
+    }
+    let password2 = ""
+    for (let i = 0; i < 15; i++) {
+        password2 += characters[Math.floor(Math.random() * characters.length)]
+    }
+    passDisplay1.textContent = password1
+    passDisplay2.textContent = password2
+}
+
+
+//copy password 1 to clipboard
+
+const copyContent = async () => {
+    try {
+        await navigator.clipboard.writeText(passDisplay1.innerHTML);
+        console.log('Content copied to clipboard');
+    } catch (err) {
+        console.error('Failed to copy: ', err);
+    }
+}
+
+//copy password 2 to clipboard
+
+const copyContent2 = async () => {
+    try {
+        await navigator.clipboard.writeText(passDisplay2.innerHTML);
+        console.log('Content copied to clipboard');
+    } catch (err) {
+        console.error('Failed to copy: ', err);
+    }
+}
+
+
+
+copy1.addEventListener("click", copyContent)
+copy2.addEventListener("click", copyContent2)
