@@ -12,8 +12,10 @@ let copy2 = document.querySelector("#copy-2")
 
 let text1 = document.getElementById('copy-1').innerHTML;
 let text2 = document.getElementById('copy-2').innerHTML;
+let selectedPassLen
 
-btn.addEventListener("click", generatePassword)
+
+
 
 
 
@@ -27,20 +29,23 @@ input.addEventListener("input", (event) => {
 });
 
 
+
+
 //generate two random passwords
 function generatePassword() {
     let password1 = ""
-    for (let i = 0; i < 15; i++) {
+    let selectedPassLen = parseInt(value.innerHTML)
+    console.log(selectedPassLen)
+    for (let i = 0; i < selectedPassLen; i++) {
         password1 += characters[Math.floor(Math.random() * characters.length)]
     }
     let password2 = ""
-    for (let i = 0; i < 15; i++) {
+    for (let i = 0; i < selectedPassLen; i++) {
         password2 += characters[Math.floor(Math.random() * characters.length)]
     }
     passDisplay1.textContent = password1
     passDisplay2.textContent = password2
 }
-
 
 //copy password 1 to clipboard
 
@@ -65,6 +70,6 @@ const copyContent2 = async () => {
 }
 
 
-
+btn.addEventListener("click", generatePassword)
 copy1.addEventListener("click", copyContent)
 copy2.addEventListener("click", copyContent2)
