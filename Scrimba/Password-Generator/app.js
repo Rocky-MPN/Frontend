@@ -1,7 +1,7 @@
-const characters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z",
-    "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z",
-    "0", "1", "2", "3", "4", "5", "6", "7", "8", "9",
-    "~", "`", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "-", "+", "=", "{", "[", "}", "]", ",", "|", ":", ";", "<", ">", ".", "?",
+let characters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z",
+    "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+const numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+const symbols = ["~", "`", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "-", "+", "=", "{", "[", "}", "]", ",", "|", ":", ";", "<", ">", ".", "?",
     "/"];
 
 let btn = document.querySelector("#generate-button")
@@ -10,12 +10,32 @@ let passDisplay2 = document.querySelector("#password-2")
 let copy1 = document.querySelector("#copy-1")
 let copy2 = document.querySelector("#copy-2")
 
-let text1 = document.getElementById('copy-1').innerHTML;
-let text2 = document.getElementById('copy-2').innerHTML;
 let selectedPassLen
 
+let includeNumbers = document.getElementById("include-numbers")
+let includeSymbols = document.getElementById("include-symbols")
 
 
+
+//check if user wants to include numbers and symbols
+function AreNumbersIncluded() {
+    if (includeNumbers.checked == true) {
+        characters = characters.concat(numbers)
+    } else {
+        characters = characters.filter(function (x) {
+            return numbers.indexOf(x) < 0;
+        })
+    }
+}
+function AreSymbolsIncluded() {
+    if (includeSymbols.checked == true) {
+        characters = characters.concat(symbols)
+    } else {
+        characters = characters.filter(function (x) {
+            return symbols.indexOf(x) < 0;
+        })
+    }
+}
 
 
 
@@ -27,8 +47,6 @@ value.textContent = input.value;
 input.addEventListener("input", (event) => {
     value.textContent = event.target.value;
 });
-
-
 
 
 //generate two random passwords
@@ -47,8 +65,9 @@ function generatePassword() {
     passDisplay2.textContent = password2
 }
 
-//copy password 1 to clipboard
 
+
+//copy password 1 to clipboard
 const copyContent = async () => {
     try {
         await navigator.clipboard.writeText(passDisplay1.innerHTML);
@@ -58,8 +77,8 @@ const copyContent = async () => {
     }
 }
 
-//copy password 2 to clipboard
 
+//copy password 2 to clipboard
 const copyContent2 = async () => {
     try {
         await navigator.clipboard.writeText(passDisplay2.innerHTML);
@@ -70,6 +89,9 @@ const copyContent2 = async () => {
 }
 
 
-btn.addEventListener("click", generatePassword)
+
 copy1.addEventListener("click", copyContent)
 copy2.addEventListener("click", copyContent2)
+includeNumbers.addEventListener("change", AreNumbersIncluded)
+includeSymbols.addEventListener("change", AreSymbolsIncluded)
+btn.addEventListener("click", generatePassword)
