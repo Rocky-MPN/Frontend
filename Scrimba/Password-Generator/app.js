@@ -53,7 +53,6 @@ input.addEventListener("input", (event) => {
 function generatePassword() {
     let password1 = ""
     let selectedPassLen = parseInt(value.innerHTML)
-    console.log(selectedPassLen)
     for (let i = 0; i < selectedPassLen; i++) {
         password1 += characters[Math.floor(Math.random() * characters.length)]
     }
