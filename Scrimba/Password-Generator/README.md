@@ -18,8 +18,8 @@ This is a solution to the Frontend Developer Career Path module 3 - Solo Project
 
 ## Links
 
-- Solution URL: [https://github.com/Rocky-MPN/Frontend/tree/main/Scrimba/Hometown-Project](https://github.com/Rocky-MPN/Frontend/tree/main/Scrimba/Password-Generator)
-- Live Site URL: [https://rocky-mpn.github.io/Hometown-Project/](https://rocky-mpn.github.io/Password-Generator/)
+- Solution URL: [https://github.com/Rocky-MPN/Frontend/tree/main/Scrimba/Password-Generator](https://github.com/Rocky-MPN/Frontend/tree/main/Scrimba/Password-Generator)
+- Live Site URL: [https://rocky-mpn.github.io/Password-Generator/](https://rocky-mpn.github.io/Password-Generator/)
 
 
 ##Screenshot
