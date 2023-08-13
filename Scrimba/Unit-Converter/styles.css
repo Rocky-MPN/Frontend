@@ -162,6 +162,36 @@ input[type=number] {
 
 
 
+/*responsive design */
+@media only screen and (max-width: 665px) {
+
+    body,
+    #page-wrapper,
+    nav,
+    main,
+    section {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    main {
+        padding: 25px 4px;
+    }
+
+    aside {
+        flex-direction: column;
+    }
+
+    section,
+    h1 {
+        max-width: 80%;
+    }
+
+}
+
+
+
 /* Switch button styles */
 .switch {
     position: relative;
