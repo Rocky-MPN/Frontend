@@ -5,6 +5,10 @@ body {
     background-color: #1C1C1C;
     display: flex;
     justify-content: center;
+    align-items: center;
+    color: #353535;
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
 }
 
 #page-wrapper {
@@ -27,21 +31,134 @@ nav {
 
 main {
     background: #F4F4F4;
+    padding: 25px 0;
 }
 
 
 nav {
     background: #6943FF;
-
+    height: 285px;
+    padding-bottom: 25px;
 }
 
 section {
     width: 500px;
     background-color: #FFFFFF;
     border-radius: 5px 0px 0px 0px;
-    margin: 10px 25px;
+    margin: 10px;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
+aside {
+    background-color: #F4F4F4;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+footer,
+a {
+    color: #F4F4F4;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+h1 {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: -0.84px;
+}
+
+h2 {
+    color: #5A537B;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#user-input {
+    border-radius: 5px;
+    border: 2px solid #B295FF;
+    width: 117px;
+    height: 83px;
+    padding: 0 15px;
+    color: #FFF;
+    background: #6943FF;
+    font-size: 58px;
+    font-weight: 800;
+    text-align: center;
+}
+
+#switch-mode {
+    margin-right: 10px;
+    color: #5A537B;
+}
+
+
+/* expand input field */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+
+
+#convert-btn {
+    border-radius: 5px;
+    background: #FFF;
+    width: 117px;
+    height: 42px;
+    color: #3D3D3D;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 20px;
+    border: 0;
+}
+
+#convert-btn:hover {
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    border: 1px solid black;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+.dark-mode {
+    background-color: #1F2937;
+}
+
+.h2-dark-mode {
+    color: #CCC1FF;
+}
+
+.section-dark-mode {
+    background-color: #273549;
+}
+
+.p-dark-mode {
+    color: #FFFFFF;
+}
+
+.aside-dark-mode {
+    background-color: #1F2937;
+}
 
 
 
@@ -84,11 +201,11 @@ section {
 }
 
 input:checked+.slider {
-    background-color: #2196F3;
+    background-color: #6943FF;
 }
 
 input:focus+.slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px #6943FF;
 }
 
 input:checked+.slider:before {
