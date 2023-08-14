@@ -20,6 +20,6 @@ The aim of this project was to create a unit converter using JavaScript, CSS and
 
 ##Screenshot
 
-![Images/Screenshot.png](Images/screenshot.png)
+![images/screenshot.png](images/screenshot.png)
 
 
