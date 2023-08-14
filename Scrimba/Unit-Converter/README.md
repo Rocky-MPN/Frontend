@@ -1,4 +1,4 @@
-# Scrimba - Basketball Scoreboard
+# Scrimba - Unit Converter
 
 This is a solution to the Frontend Developer Career Path module 3 - Unit Converter - on Scrimba [Frontend Career Path](https://scrimba.com/learn/frontend)
 
@@ -14,7 +14,7 @@ The aim of this project was to create a unit converter using JavaScript, CSS and
 ## Links
 
 - Solution URL: [https://github.com/Rocky-MPN/Frontend/tree/main/Scrimba/Unit-Converter](https://github.com/Rocky-MPN/Frontend/tree/main/Scrimba/Unit-Converter)
-- Live Site URL: [https://rocky-mpn.github.io/Basketball-Scoreboard/](https://rocky-mpn.github.io/Unit-Converter/)
+- Live Site URL: [https://rocky-mpn.github.io/Unit-Converter/](https://rocky-mpn.github.io/Unit-Converter/)
 
 
 

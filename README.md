@@ -43,6 +43,7 @@ Below are some of my proects and excercises I completed while learning HTML, CSS
 - [Picard's Birthday Card](https://github.com/Rocky-MPN/Frontend/tree/main/Scrimba/Birthday-Card)
 - [Hometown Project](https://github.com/Rocky-MPN/Frontend/tree/main/Scrimba/Hometown-Project)
 - [Password Generator](https://github.com/Rocky-MPN/Frontend/tree/main/Scrimba/Password-Generator)
+- [Unit Converter](https://github.com/Rocky-MPN/Frontend/tree/main/Scrimba/Unit-Converter)
   
 #  Author
 
