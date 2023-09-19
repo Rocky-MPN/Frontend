@@ -24,5 +24,3 @@ The aim of this project was to create a basic shopping cart app using JavaScript
 
 
 
-
-
