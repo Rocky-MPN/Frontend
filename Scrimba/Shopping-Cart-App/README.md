@@ -20,6 +20,6 @@ The aim of this project was to create a basic shopping cart app using JavaScript
 
 ##Screenshot
 
-![screenshot.png](screenshot.png)
+![Screenshot.png](Screenshot.png)
 
 
