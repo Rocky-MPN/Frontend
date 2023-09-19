@@ -1,25 +1,28 @@
 # Scrimba - Unit Converter
 
-This is a solution to the Frontend Developer Career Path module 3 - Unit Converter - on Scrimba [Frontend Career Path](https://scrimba.com/learn/frontend)
+This is a solution to the Frontend Developer Career Path module 3 - Shopping Cart App - on Scrimba [Frontend Career Path](https://scrimba.com/learn/frontend)
 
 
-The aim of this project was to create a unit converter using JavaScript, CSS and HTML.
+The aim of this project was to create a basic shopping cart app using JavaScript, CSS and HTML.
 ## Requirements
-#### - Follow the design spec from Figma
-#### - Generate all convertions when user clicks "Convert"
-#### - Round the numbers down to two decimal places
-#### - Create Dark/Light mode
+#### - Link app with Firebase database
+#### - Update in realtime
+#### - Functionality add new items to the list
+#### - Functionality to remove items from the list when clicked on them
 
 
 ## Links
 
-- Solution URL: [https://github.com/Rocky-MPN/Frontend/tree/main/Scrimba/Unit-Converter](https://github.com/Rocky-MPN/Frontend/tree/main/Scrimba/Unit-Converter)
-- Live Site URL: [https://rocky-mpn.github.io/Unit-Converter/](https://rocky-mpn.github.io/Unit-Converter/)
+- Solution URL: [https://github.com/Rocky-MPN/Frontend/tree/main/Scrimba/Shopping-Cart-App](https://github.com/Rocky-MPN/Frontend/tree/main/Scrimba/Shopping-Cart-App)
+- Live Site URL: [https://rocky-mpn.github.io/Shopping-Cart-App/](https://rocky-mpn.github.io/Shopping-Cart-App/)
 
 
 
 ##Screenshot
 
-![images/screenshot.png](images/screenshot.png)
+![screenshot.png](screenshot.png)
+
+
+
 
 
