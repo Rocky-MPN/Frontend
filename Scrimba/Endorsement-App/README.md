@@ -1,4 +1,4 @@
-# Scrimba - Endorsement Cart App
+# Scrimba - Endorsement App
 
 This is a solution to the Frontend Developer Career Path module 3 - Shopping Cart App - on Scrimba [Frontend Career Path](https://scrimba.com/learn/frontend)
 
