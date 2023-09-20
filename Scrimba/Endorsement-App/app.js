@@ -14,10 +14,9 @@ const addButtonEl = document.getElementById("publish-button")
 const endorsementListEl = document.getElementById("endorsement-list")
 
 addButtonEl.addEventListener("click", function () {
-    console.log("cklicked")
     let inputValue = inputFieldEl.value
 
-    push(shoppingListInDB, inputValue)
+    push(endorsementListInDB, inputValue)
 
     clearInputFieldEl()
 })
@@ -26,21 +25,21 @@ onValue(endorsementListInDB, function (snapshot) {
     if (snapshot.exists()) {
         let itemsArray = Object.entries(snapshot.val())
 
-        clearShoppingListEl()
+        clearendorsementListEl()
 
         for (let i = 0; i < itemsArray.length; i++) {
             let currentItem = itemsArray[i]
             let currentItemID = currentItem[0]
             let currentItemValue = currentItem[1]
 
-            appendItemToShoppingListEl(currentItem)
+            appendItemToendorsementListEl(currentItem)
         }
     } else {
         endorsementListEl.innerHTML = "No items here... yet"
     }
 })
 
-function clearShoppingListEl() {
+function clearendorsementListEl() {
     endorsementListEl.innerHTML = ""
 }
 
@@ -48,7 +47,7 @@ function clearInputFieldEl() {
     inputFieldEl.value = ""
 }
 
-function appendItemToShoppingListEl(item) {
+function appendItemToendorsementListEl(item) {
     let itemID = item[0]
     let itemValue = item[1]
 
@@ -57,7 +56,7 @@ function appendItemToShoppingListEl(item) {
     newEl.textContent = itemValue
 
     newEl.addEventListener("click", function () {
-        let exactLocationOfItemInDB = ref(database, `shoppingList/${itemID}`)
+        let exactLocationOfItemInDB = ref(database, `endorsements/${itemID}`)
 
         remove(exactLocationOfItemInDB)
     })
