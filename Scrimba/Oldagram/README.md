@@ -1,21 +1,27 @@
-# cocc74738af52fd0b89412b5a
+# Scrimba - Oldagram App
 
-Quick start:
+This is a solution to the Frontend Developer Career Path module 3 - Oldagram App - on Scrimba [Frontend Career Path](https://scrimba.com/learn/frontend)
 
-```
-$ npm install
-$ npm start
-````
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+The aim of this project was to create an Instagram clone using JavaScript, CSS and HTML.
+## Requirements
+#### - Create from scratch
+#### - Use semantic HTML
+#### - Add hover effects to the icons
+#### - Make teh design look like an example on Fimba files
+#### - Increase the likes when clicking the post
+#### - Decrease likes when double cliking on the post
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## Links
 
-Happy Coding!
+- Solution URL: [https://github.com/Rocky-MPN/Frontend/tree/main/Scrimba/Oldagram](https://github.com/Rocky-MPN/Frontend/tree/main/Scrimba/Oldagram)
+- Live Site URL: [https://rocky-mpn.github.io/Endorsement-App/](https://rocky-mpn.github.io/Oldagram/)
+
+
+
+##Screenshot
+
+![images/Screenshot.png](images/Screenshot.png)
+
+
