@@ -8,7 +8,7 @@ The aim of this project was to create an Instagram clone using JavaScript, CSS a
 #### - Create from scratch
 #### - Use semantic HTML
 #### - Add hover effects to the icons
-#### - Make teh design look like an example on Fimba files
+#### - Make the design look like an example on Fimba files
 #### - Increase the likes when clicking the post
 #### - Decrease likes when double cliking on the post
 
