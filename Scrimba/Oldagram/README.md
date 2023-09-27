@@ -1,6 +1,6 @@
 # Scrimba - Oldagram App
 
-This is a solution to the Frontend Developer Career Path module 3 - Oldagram App - on Scrimba [Frontend Career Path](https://scrimba.com/learn/frontend)
+This is a solution to the Frontend Developer Career Path module 4 - Oldagram App - on Scrimba [Frontend Career Path](https://scrimba.com/learn/frontend)
 
 
 The aim of this project was to create an Instagram clone using JavaScript, CSS and HTML.
