@@ -16,7 +16,7 @@ The aim of this project was to create an Instagram clone using JavaScript, CSS a
 ## Links
 
 - Solution URL: [https://github.com/Rocky-MPN/Frontend/tree/main/Scrimba/Oldagram](https://github.com/Rocky-MPN/Frontend/tree/main/Scrimba/Oldagram)
-- Live Site URL: [https://rocky-mpn.github.io/Endorsement-App/](https://rocky-mpn.github.io/Oldagram/)
+- Live Site URL: [https://rocky-mpn.github.io/Oldagram/](https://rocky-mpn.github.io/Oldagram/)
 
 
 
