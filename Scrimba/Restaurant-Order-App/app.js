@@ -28,7 +28,9 @@ function getItemsHtml() {
 }
 
 
-
+addBtn.addEventListener('click',function(){
+    
+})
 
 document.querySelector('.menu-items').innerHTML = getItemsHtml()
 
