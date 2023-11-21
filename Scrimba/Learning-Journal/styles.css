@@ -65,6 +65,15 @@ article img {
     border-radius: 3px;
 }
 
+#home-btn {
+    cursor: pointer;
+}
+
+#home-btn:hover,
+#home-btn:focus {
+    text-decoration: overline;
+}
+
 /* hero section */
 
 .hero {
@@ -143,8 +152,13 @@ p {
 
 
 /* expanded article */
+.article-title-hero {
+    cursor: pointer;
+}
+
 .article-expanded {
     color: #151515;
+    display: none;
 }
 
 .article-expanded h3 {
@@ -160,6 +174,13 @@ p {
 
 .article-expanded .article-date {
     font-weight: 400;
+}
+
+.roku-image {
+    width: 182px;
+    height: 182px;
+    border-radius: 50%;
+    box-shadow: none;
 }
 
 /* footer */
