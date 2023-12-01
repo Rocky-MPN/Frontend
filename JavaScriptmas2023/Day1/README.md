@@ -1,7 +1,6 @@
-# SJavascriptmas 2023
+# Javascriptmas 2023
 
 Day 1 - Countdown to Christmas
-
 
 The aim of this project was to create an Instagram clone using JavaScript, CSS and HTML.
 ## Requirements
