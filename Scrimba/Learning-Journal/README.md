@@ -1,6 +1,6 @@
-# Scrimba - Learning Jpurnal
+# Scrimba - Learning Journal
 
-This is a solution to the Frontend Developer Career Path module 6 - Learning Jpurnal - on Scrimba [Frontend Career Path](https://scrimba.com/learn/frontend)
+This is a solution to the Frontend Developer Career Path module 6 - Learning Journal - on Scrimba [Frontend Career Path](https://scrimba.com/learn/frontend)
 
 
 The aim of this project was to create a Learning Journal Blog based on Figma file using JavaScript, CSS and HTML.
@@ -14,8 +14,8 @@ The aim of this project was to create a Learning Journal Blog based on Figma fil
 
 ## Links
 
-- Solution URL: [https://github.com/Rocky-MPN/Frontend/tree/main/Scrimba/Oldagram](https://github.com/Rocky-MPN/Frontend/tree/main/Scrimba/Learning-Journal)
-- Live Site URL: [https://rocky-mpn.github.io/Oldagram/](https://rocky-mpn.github.io/Learning-Journal/)
+- Solution URL: [https://github.com/Rocky-MPN/Frontend/tree/main/Scrimba/Learning-Journal](https://github.com/Rocky-MPN/Frontend/tree/main/Scrimba/Learning-Journal)
+- Live Site URL: [https://rocky-mpn.github.io/Learning-Journal/](https://rocky-mpn.github.io/Learning-Journal/)
 
 
 
