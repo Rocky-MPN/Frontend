@@ -8,5 +8,6 @@ The aim of this project was to create an Instagram clone using JavaScript, CSS a
     - Calculate remaining days.
     - Display remaining days in countdownDisplay.
 
-## Live Site URL: [hhttps://scrimba.com/scrim/cGZz7NtN](https://scrimba.com/scrim/cGZz7NtN)
+- Solution URL: [https://github.com/Rocky-MPN/Frontend/tree/main/JavaScriptmas2023/Day1](https://github.com/Rocky-MPN/Frontend/tree/main/JavaScriptmas2023/Day1)
+- Live Site URL: [https://rocky-mpn.github.io/JavaScriptmas2023/Day1/](https://rocky-mpn.github.io/JavaScriptmas2023/Day1/)
 
