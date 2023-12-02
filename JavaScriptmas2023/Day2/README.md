@@ -10,5 +10,5 @@ Day 2 - Style a colourful button
     - Center button on page
 
 - Solution URL: [https://github.com/Rocky-MPN/Frontend/tree/main/JavaScriptmas2023/Day2](https://github.com/Rocky-MPN/Frontend/tree/main/JavaScriptmas2023/Day2)
-- Live Site URL: [https://rocky-mpn.github.io/JavaScriptmas2023/Day1/](https://rocky-mpn.github.io/JavaScriptmas2023/Day2/)
+- Live Site URL: [https://rocky-mpn.github.io/JavaScriptmas2023/Day2/](https://rocky-mpn.github.io/JavaScriptmas2023/Day2/)
 
