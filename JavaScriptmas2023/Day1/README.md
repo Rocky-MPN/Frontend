@@ -2,7 +2,6 @@
 
 Day 1 - Countdown to Christmas
 
-The aim of this project was to create an Instagram clone using JavaScript, CSS and HTML.
 ## Requirements
     - Get today's date (you only need the day).
     - Calculate remaining days.
