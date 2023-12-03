@@ -1,6 +1,6 @@
 # Javascriptmas 2023
 
-Day 3 - Countdown to Christmas
+Day 3 - Divide candies
 
 ## Requirements
     /** Challenge:
